@@ -1,3 +1,7 @@
 .hidden {
     display: none;
 }
+.radio:not(:last-child){
+    margin-right: 30px;
+    background-color: rgb(25, 0, 255);
+}

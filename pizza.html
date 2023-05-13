@@ -16,6 +16,25 @@
         <br>
         <button class="btn">BTN</button>
     </form>
-    <form action="" class="basic order">Bla bla bla</form>
+    <form action="" class="basic order">
+        <label for="pizza">Оберіть піцу: </label>
+        <input type="text" class="pizza" list="pizzaList">
+        <datalist id="pizzaList"></datalist>
+        <div class="size">
+            <span>Розмір: </span>
+            <label for="radio">S</label>
+            <input type="radio" name="size" class="radio" checked>
+            <label for="radio">M</label>
+            <input type="radio" name="size" class="radio">
+            <label for="radio">L</label>
+            <input type="radio" name="size" class="radio">
+        </div>
+        <label for="checkbox">Борти з сиром: </label>
+        <input type="checkbox" class="checkbox" name="border">
+        <p>
+            Ціна: <span>0</span>
+        </p>
+        <button disabled>Оплатити</button>
+    </form>
 </body>
 </html>
